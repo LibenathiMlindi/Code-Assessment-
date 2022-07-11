@@ -1,5 +1,5 @@
 Create Table placeBet(
-Events text, Trials Varchar(50),
+Events text, Trials text,
 TwoToOneA text,TwoTooneB text, TwoToOneC text) 
 
 INSERT INTO placeBet (Events, Trials, TwoToOneA, 
