@@ -1,0 +1,53 @@
+Create Table placeBet(
+Events text, Trials Varchar(50),
+TwoToOneA text,TwoTooneB text, TwoToOneC text) 
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('1-18','1st 12' ,'Black 1' ,'Red 2','Black 3')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('1-18', '1st 12', 'Red 4', 'Black 5', 'Red 6')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('Even', '1st 12', 'Black 7', 'Red 8', 'Black 9')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('Even', '1st 12' , 'Red 10', 'Black 11', 'Red 12')
+
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('Red Diamond', '2nd 12', 'Black 13', 'Red 14', 'Black 15')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('Red Diamond', '2nd 12', 'Red 16', 'Black 17', 'Red 18')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('Black Diamond', '2nd 12', 'Black 19', 'Red 20', 'Black 21')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('Black Diamond', '2nd 12', 'Red 22', 'Black 23', 'Red 24')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('ODD', '3rd 12', 'Black 25', 'Red 26', 'Black 27')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('ODD', '3rd 12', 'Red 28', 'Black 29', 'Red 30')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('19-36', '3rd 12', 'Black 31', 'Red 32', 'Black 33')
+
+INSERT INTO placeBet (Events, Trials, TwoToOneA, 
+TwoTooneB,TwoToOneC)
+VALUES ('19-36', '3rd 12', 'Red 34', 'Black 35', 'Red 36')
+
