@@ -1,4 +1,4 @@
-Create Procedure pr_GetOrderSummary(@Start date, @End date, 
+Create Procedure pr_GetOrderSummary(@Start_date, @End_date, 
 @EmployeeID, @CustomerID)
 
 AS
@@ -13,4 +13,4 @@ NumberOfOders, Date, TotalFreightCost,
 NumberOfDifferentProducts, TotalOrderValue 
 FROM Oders 
 
-END
+END;
