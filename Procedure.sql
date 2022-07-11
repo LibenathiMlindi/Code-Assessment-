@@ -1,4 +1,16 @@
-Create Procedure pr_GetOrderSummary
+Create Procedure pr_GetOrderSummary(@Start date, @End date, 
+@EmployeeID, @CustomerID)
+
 AS
-SELECT * FROM Oders
-Go;
+
+BEGIN
+
+SET NOCOUNT ON
+
+SELECT EmployeeFullName,
+Shipper CompanyName, Customer CompanyName,
+NumberOfOders, Date, TotalFreightCost,
+NumberOfDifferentProducts, TotalOrderValue 
+FROM Oders 
+
+END
